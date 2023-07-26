@@ -36,6 +36,12 @@ function Nav() {
           </>
         )}
 
+        {user.access_level >= 7 &&
+          <Link className="navLink" to="/admin">
+            Admin
+          </Link>
+        }
+
         <Link className="navLink" to="/about">
           About
         </Link>
