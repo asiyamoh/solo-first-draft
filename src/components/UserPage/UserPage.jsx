@@ -24,15 +24,20 @@ function UserPage() {
   return (
     <div className="container">
       <h2>Welcome, {user.username}!</h2>
-      <p>Your ID is: {user.id}</p>
+      {/* <p>Your ID is: {user.id}</p> */}
 
-      <form onSubmit={handleSubmit}>
+      {/* <form onSubmit={handleSubmit}>
         <label htmlFor='petName'>Pet Name
           <input onChange={e => setPetName(e.target.value)} id='petName' placeholder='Add Your Pet!' />
         </label>
 
         <button type='submit'>Add Pet</button>
-      </form>
+      </form> */}
+
+
+
+
+      
       <LogOutButton className="btn" />
     </div>
   );
